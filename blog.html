@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | TweeFiets Voorbeeld Rotterdam</title>
+  <meta name="description" content="Reparatiesadvies, medisch nieuws en praktische tips van de specialisten van TweeFiets Voorbeeld Rotterdam.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="/" class="nav-logo">Zorg<span>Plein</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">Over Ons</a></li>
+      <li><a href="index.html#services">Diensten</a></li>
+      <li><a href="index.html#ba">Resultaten</a></li>
+      <li><a href="index.html#team">Team</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <a href="index.html#cta" class="nav-cta">Afspraak Maken</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+  <div class="container">
+    <div class="badge">blog</div>
+    <h1>Reparatie & <span>Welzijn</span></h1>
+    <p>Deskundige artikelen over preventie, behandelingen en alles wat bijdraagt aan een gezonder leven.</p>
+  </div>
+</section>
+
+<!-- ========== BLOG GRID ========== -->
+<section class="blog-grid-section">
+  <div class="container">
+    <div class="blog-grid">
+      <article class="blog-card">
+        <img src="images/carousel.jpg" alt="E-bikesf onderzoek" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">E-bikes</span>
+          <h3>De 5 Belangrijkste Reparatiesscreenings Na Uw 40e</h3>
+          <p>Welke onderzoeken zijn echt nodig naarmate u ouder wordt? Onze artsen geven helder advies.</p>
+          <div class="blog-meta">
+            <span>12 april 2026</span>
+            <span>6 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/detail.jpg" alt="Natuurlijke cosmetiek" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Banden</span>
+          <h3>Hyaluronzuur vs. Botox: Welke Behandeling Past bij U?</h3>
+          <p>Een eerlijke vergelijking van de twee populairste cosmetische behandelingen, door onze cosmetisch arts.</p>
+          <div class="blog-meta">
+            <span>8 april 2026</span>
+            <span>7 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/craft.jpg" alt="Fysiotherapie oefeningen" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Fysiotherapie</span>
+          <h3>Rugpijn op Kantoor? Deze 4 Oefeningen Helpen Direct</h3>
+          <p>Eenvoudige oefeningen die u achter uw bureau kunt doen om rugklachten te verlichten.</p>
+          <div class="blog-meta">
+            <span>3 april 2026</span>
+            <span>4 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/about.jpg" alt="Huidgezondheid" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Custom builds</span>
+          <h3>Moedervlekken Controleren: Wanneer Moet U naar de Dermatoloog?</h3>
+          <p>Leer de ABCDE-regel en weet wanneer een moedervlek professionele aandacht verdient.</p>
+          <div class="blog-meta">
+            <span>28 maart 2026</span>
+            <span>5 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project1.jpg" alt="Oogmetingen" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Winterklaar</span>
+          <h3>Schermtijd en Uw Ogen: Hoe Beschermt U Uw Zicht?</h3>
+          <p>Onze oogarts legt uit hoe langdurig beeldschermgebruik uw ogen beinvloedt en wat u ertegen kunt doen.</p>
+          <div class="blog-meta">
+            <span>22 maart 2026</span>
+            <span>6 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project2.jpg" alt="Bloedonderzoek" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Reparatie</span>
+          <h3>Wat Vertelt Uw Bloedonderzoek? Een Begrijpelijke Uitleg</h3>
+          <p>Cholesterol, bloedsuiker, leverwaarden — onze huisarts legt de belangrijkste waarden uit in duidelijke taal.</p>
+          <div class="blog-meta">
+            <span>15 maart 2026</span>
+            <span>8 min lezen</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta" id="cta">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <div class="cta-content">
+      <div class="badge">contact</div>
+      <h2>Vragen over Uw <span>Reparatie</span>?</h2>
+      <p>Ons team staat voor u klaar. Neem contact op voor een afspraak of vrijblijvend advies.</p>
+      <a href="#" class="btn-primary">
+        <i data-lucide="calendar"></i> Plan Uw Afspraak
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">Zorg<span>Plein</span></a>
+        <p>TweeFiets Voorbeeld Rotterdam. Moderne medische zorg met een persoonlijke touch. Al meer dan 20 jaar het vertrouwde gezondheidscentrum van Rotterdam.</p>
+      </div>
+      <div>
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="index.html#services">Reparatie</a></li>
+          <li><a href="index.html#services">Banden</a></li>
+          <li><a href="index.html#services">Fysiotherapie</a></li>
+          <li><a href="index.html#services">Custom builds</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Centrum</h4>
+        <ul>
+          <li><a href="index.html#about">Over Ons</a></li>
+          <li><a href="index.html#team">Ons Team</a></li>
+          <li><a href="index.html#ba">Resultaten</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">Coolsingel 88, Rotterdam</a></li>
+          <li><a href="tel:+31101234567">010 - 123 4567</a></li>
+          <li><a href="mailto:info@zorgplein.nl">info@zorgplein.nl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 TweeFiets Voorbeeld Rotterdam. Alle rechten voorbehouden.
+    </div>
+  </div>
+</footer>
+
+<script>
+  lucide.createIcons();
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  gsap.from('.page-hero .badge', { opacity: 0, y: 20, duration: .6, delay: .2 });
+  gsap.from('.page-hero h1', { opacity: 0, y: 30, duration: .8, delay: .4 });
+  gsap.from('.page-hero p', { opacity: 0, y: 20, duration: .6, delay: .6 });
+
+  gsap.from('.blog-card', {
+    scrollTrigger: { trigger: '.blog-grid-section', start: 'top 80%' },
+    opacity: 0, y: 50, duration: .7, stagger: .12
+  });
+
+  gsap.from('.cta-content', {
+    scrollTrigger: { trigger: '.cta', start: 'top 80%' },
+    opacity: 0, y: 40, duration: 1
+  });
+</script>
+</body>
+</html>
